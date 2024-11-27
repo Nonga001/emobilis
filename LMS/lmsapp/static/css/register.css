@@ -1,0 +1,105 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa; /* Light teal background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.register-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 2px solid #00796b; /* Teal border */
+}
+
+h2 {
+  color: #00796b; /* Teal */
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form elements */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between label and input */
+  align-items: flex-start; /* Align labels to the left */
+}
+
+label {
+  font-size: 16px;
+  color: #00796b;
+  font-weight: bold;
+  width: 100%; /* Ensure the label takes up full width */
+}
+
+form input {
+  padding: 12px;
+  border: 1px solid #00796b; /* Teal border for inputs */
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f1f8e9; /* Light green background */
+  width: 100%; /* Inputs fill the remaining width */
+}
+
+form input:focus {
+  outline: none;
+  border-color: #4caf50; /* Green focus border */
+  background-color: #e8f5e9; /* Slightly lighter green when focused */
+}
+
+.register-footer {
+  margin-top: 20px;
+}
+
+.submit-btn {
+  padding: 14px;
+  background-color: #00796b; /* Teal background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #004d40; /* Darker teal on hover */
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #00796b; /* Teal text color */
+}
+
+.login-link a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  color: #004d40; /* Darker teal on hover */
+  text-decoration: underline;
+}
